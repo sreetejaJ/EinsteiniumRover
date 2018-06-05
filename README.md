@@ -6,7 +6,7 @@ Department of Electrical and Electronic Engineering
 
 Imperial College London
 
-by;
+by
 
 Sreeteja Jonnada
 Angus Joshi
