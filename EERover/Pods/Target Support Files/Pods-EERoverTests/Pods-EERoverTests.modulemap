@@ -1,0 +1,6 @@
+framework module Pods_EERoverTests {
+  umbrella header "Pods-EERoverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

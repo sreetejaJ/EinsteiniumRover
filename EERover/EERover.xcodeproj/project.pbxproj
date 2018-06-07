@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593407182031D8C80062D93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593407172031D8C80062D93B /* AppDelegate.swift */; };
+		5934071A2031D8C80062D93B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593407192031D8C80062D93B /* ViewController.swift */; };
+		5934071D2031D8C80062D93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5934071B2031D8C80062D93B /* Main.storyboard */; };
+		5934071F2031D8C80062D93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5934071E2031D8C80062D93B /* Assets.xcassets */; };
+		593407222031D8C80062D93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593407202031D8C80062D93B /* LaunchScreen.storyboard */; };
+		5934072D2031D8C80062D93B /* EERoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5934072C2031D8C80062D93B /* EERoverTests.swift */; };
+		593407382031D8C80062D93B /* EERoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593407372031D8C80062D93B /* EERoverUITests.swift */; };
+		59340784203300390062D93B /* SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59340783203300390062D93B /* SKScene.swift */; };
+		59340786203301A80062D93B /* AnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59340785203301A80062D93B /* AnalogJoystick.swift */; };
+		692756D0A7BF643C6A1B1853 /* Pods_EERover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A1F8FED16B69349EE2B6A9 /* Pods_EERover.framework */; };
+		90F928F3081B781592C63146 /* Pods_EERoverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76826268D32D3B381CD376D6 /* Pods_EERoverUITests.framework */; };
+		DDBB648EED6045963106135E /* Pods_EERoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCB8006D5C634DCB1C62F02 /* Pods_EERoverTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593407292031D8C80062D93B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5934070C2031D8C80062D93B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593407132031D8C80062D93B;
+			remoteInfo = EERover;
+		};
+		593407342031D8C80062D93B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5934070C2031D8C80062D93B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593407132031D8C80062D93B;
+			remoteInfo = EERover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C38E08B45BCBD92FC3DFB4 /* Pods-EERoverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EERoverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EERoverUITests/Pods-EERoverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CCB8006D5C634DCB1C62F02 /* Pods_EERoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EERoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		593407142031D8C80062D93B /* EERover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EERover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593407172031D8C80062D93B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		593407192031D8C80062D93B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5934071C2031D8C80062D93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5934071E2031D8C80062D93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593407212031D8C80062D93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		593407232031D8C80062D93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593407282031D8C80062D93B /* EERoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EERoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5934072C2031D8C80062D93B /* EERoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EERoverTests.swift; sourceTree = "<group>"; };
+		5934072E2031D8C80062D93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593407332031D8C80062D93B /* EERoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EERoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593407372031D8C80062D93B /* EERoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EERoverUITests.swift; sourceTree = "<group>"; };
+		593407392031D8C80062D93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59340783203300390062D93B /* SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKScene.swift; sourceTree = "<group>"; };
+		59340785203301A80062D93B /* AnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogJoystick.swift; sourceTree = "<group>"; };
+		76826268D32D3B381CD376D6 /* Pods_EERoverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EERoverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69DE65B2DA49F0FE81D4091 /* Pods-EERover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EERover.release.xcconfig"; path = "Pods/Target Support Files/Pods-EERover/Pods-EERover.release.xcconfig"; sourceTree = "<group>"; };
+		B6A1F8FED16B69349EE2B6A9 /* Pods_EERover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EERover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86180D92135C01907512437 /* Pods-EERoverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EERoverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EERoverTests/Pods-EERoverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C21945C91DB128FABD07D3E5 /* Pods-EERoverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EERoverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EERoverUITests/Pods-EERoverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC9B9A8A390771DB7D91661 /* Pods-EERoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EERoverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EERoverTests/Pods-EERoverTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7A413799876896EE791E9C3 /* Pods-EERover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EERover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EERover/Pods-EERover.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593407112031D8C80062D93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692756D0A7BF643C6A1B1853 /* Pods_EERover.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593407252031D8C80062D93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBB648EED6045963106135E /* Pods_EERoverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593407302031D8C80062D93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F928F3081B781592C63146 /* Pods_EERoverUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E9923FA8EA36EC517B8E8CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A1F8FED16B69349EE2B6A9 /* Pods_EERover.framework */,
+				4CCB8006D5C634DCB1C62F02 /* Pods_EERoverTests.framework */,
+				76826268D32D3B381CD376D6 /* Pods_EERoverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5934070B2031D8C80062D93B = {
+			isa = PBXGroup;
+			children = (
+				593407162031D8C80062D93B /* EERover */,
+				5934072B2031D8C80062D93B /* EERoverTests */,
+				593407362031D8C80062D93B /* EERoverUITests */,
+				593407152031D8C80062D93B /* Products */,
+				656A0FA795BDF3D4250A0027 /* Pods */,
+				4E9923FA8EA36EC517B8E8CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		593407152031D8C80062D93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593407142031D8C80062D93B /* EERover.app */,
+				593407282031D8C80062D93B /* EERoverTests.xctest */,
+				593407332031D8C80062D93B /* EERoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593407162031D8C80062D93B /* EERover */ = {
+			isa = PBXGroup;
+			children = (
+				593407172031D8C80062D93B /* AppDelegate.swift */,
+				593407192031D8C80062D93B /* ViewController.swift */,
+				59340783203300390062D93B /* SKScene.swift */,
+				59340785203301A80062D93B /* AnalogJoystick.swift */,
+				5934071B2031D8C80062D93B /* Main.storyboard */,
+				5934071E2031D8C80062D93B /* Assets.xcassets */,
+				593407202031D8C80062D93B /* LaunchScreen.storyboard */,
+				593407232031D8C80062D93B /* Info.plist */,
+			);
+			path = EERover;
+			sourceTree = "<group>";
+		};
+		5934072B2031D8C80062D93B /* EERoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				5934072C2031D8C80062D93B /* EERoverTests.swift */,
+				5934072E2031D8C80062D93B /* Info.plist */,
+			);
+			path = EERoverTests;
+			sourceTree = "<group>";
+		};
+		593407362031D8C80062D93B /* EERoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				593407372031D8C80062D93B /* EERoverUITests.swift */,
+				593407392031D8C80062D93B /* Info.plist */,
+			);
+			path = EERoverUITests;
+			sourceTree = "<group>";
+		};
+		656A0FA795BDF3D4250A0027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7A413799876896EE791E9C3 /* Pods-EERover.debug.xcconfig */,
+				A69DE65B2DA49F0FE81D4091 /* Pods-EERover.release.xcconfig */,
+				B86180D92135C01907512437 /* Pods-EERoverTests.debug.xcconfig */,
+				EFC9B9A8A390771DB7D91661 /* Pods-EERoverTests.release.xcconfig */,
+				C21945C91DB128FABD07D3E5 /* Pods-EERoverUITests.debug.xcconfig */,
+				23C38E08B45BCBD92FC3DFB4 /* Pods-EERoverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593407132031D8C80062D93B /* EERover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5934073C2031D8C80062D93B /* Build configuration list for PBXNativeTarget "EERover" */;
+			buildPhases = (
+				35905A00AFE9F1DC2A168E90 /* [CP] Check Pods Manifest.lock */,
+				593407102031D8C80062D93B /* Sources */,
+				593407112031D8C80062D93B /* Frameworks */,
+				593407122031D8C80062D93B /* Resources */,
+				AEFA15741B5E2F96E1587EAA /* [CP] Embed Pods Frameworks */,
+				39BD1F05B101433F819DF999 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EERover;
+			productName = EERover;
+			productReference = 593407142031D8C80062D93B /* EERover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593407272031D8C80062D93B /* EERoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5934073F2031D8C80062D93B /* Build configuration list for PBXNativeTarget "EERoverTests" */;
+			buildPhases = (
+				22BE2968B0181C77383C1197 /* [CP] Check Pods Manifest.lock */,
+				593407242031D8C80062D93B /* Sources */,
+				593407252031D8C80062D93B /* Frameworks */,
+				593407262031D8C80062D93B /* Resources */,
+				9FD29D4163F46575AEFBDB4F /* [CP] Embed Pods Frameworks */,
+				D7E2F5F3EF7FE182D389C217 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5934072A2031D8C80062D93B /* PBXTargetDependency */,
+			);
+			name = EERoverTests;
+			productName = EERoverTests;
+			productReference = 593407282031D8C80062D93B /* EERoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		593407322031D8C80062D93B /* EERoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593407422031D8C80062D93B /* Build configuration list for PBXNativeTarget "EERoverUITests" */;
+			buildPhases = (
+				6163CADD5F3E7140F70549BD /* [CP] Check Pods Manifest.lock */,
+				5934072F2031D8C80062D93B /* Sources */,
+				593407302031D8C80062D93B /* Frameworks */,
+				593407312031D8C80062D93B /* Resources */,
+				20AF942A3BB4EFDC7E4BD3A3 /* [CP] Embed Pods Frameworks */,
+				BD1C130350934F9B134B2014 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593407352031D8C80062D93B /* PBXTargetDependency */,
+			);
+			name = EERoverUITests;
+			productName = EERoverUITests;
+			productReference = 593407332031D8C80062D93B /* EERoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5934070C2031D8C80062D93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sreeteja Jonnada";
+				TargetAttributes = {
+					593407132031D8C80062D93B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					593407272031D8C80062D93B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 593407132031D8C80062D93B;
+					};
+					593407322031D8C80062D93B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 593407132031D8C80062D93B;
+					};
+				};
+			};
+			buildConfigurationList = 5934070F2031D8C80062D93B /* Build configuration list for PBXProject "EERover" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5934070B2031D8C80062D93B;
+			productRefGroup = 593407152031D8C80062D93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593407132031D8C80062D93B /* EERover */,
+				593407272031D8C80062D93B /* EERoverTests */,
+				593407322031D8C80062D93B /* EERoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593407122031D8C80062D93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593407222031D8C80062D93B /* LaunchScreen.storyboard in Resources */,
+				5934071F2031D8C80062D93B /* Assets.xcassets in Resources */,
+				5934071D2031D8C80062D93B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593407262031D8C80062D93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593407312031D8C80062D93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20AF942A3BB4EFDC7E4BD3A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EERoverUITests/Pods-EERoverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22BE2968B0181C77383C1197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EERoverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35905A00AFE9F1DC2A168E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EERover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39BD1F05B101433F819DF999 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EERover/Pods-EERover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6163CADD5F3E7140F70549BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EERoverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD29D4163F46575AEFBDB4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EERoverTests/Pods-EERoverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFA15741B5E2F96E1587EAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EERover/Pods-EERover-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EERover/Pods-EERover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1C130350934F9B134B2014 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EERoverUITests/Pods-EERoverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E2F5F3EF7FE182D389C217 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EERoverTests/Pods-EERoverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593407102031D8C80062D93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59340784203300390062D93B /* SKScene.swift in Sources */,
+				59340786203301A80062D93B /* AnalogJoystick.swift in Sources */,
+				5934071A2031D8C80062D93B /* ViewController.swift in Sources */,
+				593407182031D8C80062D93B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593407242031D8C80062D93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5934072D2031D8C80062D93B /* EERoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5934072F2031D8C80062D93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593407382031D8C80062D93B /* EERoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5934072A2031D8C80062D93B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593407132031D8C80062D93B /* EERover */;
+			targetProxy = 593407292031D8C80062D93B /* PBXContainerItemProxy */;
+		};
+		593407352031D8C80062D93B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593407132031D8C80062D93B /* EERover */;
+			targetProxy = 593407342031D8C80062D93B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5934071B2031D8C80062D93B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5934071C2031D8C80062D93B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		593407202031D8C80062D93B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593407212031D8C80062D93B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5934073A2031D8C80062D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5934073B2031D8C80062D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5934073D2031D8C80062D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A413799876896EE791E9C3 /* Pods-EERover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PM4K976Y6;
+				INFOPLIST_FILE = EERover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jonnada.EERover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5934073E2031D8C80062D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69DE65B2DA49F0FE81D4091 /* Pods-EERover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PM4K976Y6;
+				INFOPLIST_FILE = EERover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jonnada.EERover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		593407402031D8C80062D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86180D92135C01907512437 /* Pods-EERoverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PM4K976Y6;
+				INFOPLIST_FILE = EERoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jonnada.EERoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EERover.app/EERover";
+			};
+			name = Debug;
+		};
+		593407412031D8C80062D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC9B9A8A390771DB7D91661 /* Pods-EERoverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PM4K976Y6;
+				INFOPLIST_FILE = EERoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jonnada.EERoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EERover.app/EERover";
+			};
+			name = Release;
+		};
+		593407432031D8C80062D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21945C91DB128FABD07D3E5 /* Pods-EERoverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PM4K976Y6;
+				INFOPLIST_FILE = EERoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jonnada.EERoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EERover;
+			};
+			name = Debug;
+		};
+		593407442031D8C80062D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C38E08B45BCBD92FC3DFB4 /* Pods-EERoverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PM4K976Y6;
+				INFOPLIST_FILE = EERoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jonnada.EERoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EERover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5934070F2031D8C80062D93B /* Build configuration list for PBXProject "EERover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5934073A2031D8C80062D93B /* Debug */,
+				5934073B2031D8C80062D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5934073C2031D8C80062D93B /* Build configuration list for PBXNativeTarget "EERover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5934073D2031D8C80062D93B /* Debug */,
+				5934073E2031D8C80062D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5934073F2031D8C80062D93B /* Build configuration list for PBXNativeTarget "EERoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593407402031D8C80062D93B /* Debug */,
+				593407412031D8C80062D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593407422031D8C80062D93B /* Build configuration list for PBXNativeTarget "EERoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593407432031D8C80062D93B /* Debug */,
+				593407442031D8C80062D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5934070C2031D8C80062D93B /* Project object */;
+}
